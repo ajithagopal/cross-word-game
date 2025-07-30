@@ -1,0 +1,80 @@
+<svg id="Component_57_14" data-name="Component 57 – 14" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Group_73114" data-name="Group 73114" transform="translate(-403.334 -1647.334)">
+    <g id="Group_73124" data-name="Group 73124" transform="translate(1 1)">
+      <g id="Group_73114-2" data-name="Group 73114" transform="translate(-2 -1)">
+        <g id="Group_73124-2" data-name="Group 73124" transform="translate(1 1)">
+          <g id="Group_73310" data-name="Group 73310" transform="translate(449.867 1693.867)">
+            <circle id="Ellipse_107" data-name="Ellipse 107" cx="15" cy="15" r="15" transform="translate(0.467 0.467)"/>
+          </g>
+          <g id="Group_73313" data-name="Group 73313" transform="translate(449.867 1729.589)">
+            <ellipse id="Ellipse_109" data-name="Ellipse 109" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(0.467 -0.255)"/>
+          </g>
+          <circle id="Ellipse_126" data-name="Ellipse 126" cx="15" cy="15" r="15" transform="translate(485.334 1694.334)"/>
+          <ellipse id="Ellipse_125" data-name="Ellipse 125" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(485.334 1658.334)"/>
+          <ellipse id="Ellipse_124" data-name="Ellipse 124" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(450.334 1658.334)"/>
+          <circle id="Ellipse_123" data-name="Ellipse 123" cx="15.5" cy="15.5" r="15.5" transform="translate(414.334 1658.334)"/>
+          <g id="Group_73311" data-name="Group 73311" transform="translate(414.756 1693.867)">
+            <ellipse id="Ellipse_111" data-name="Ellipse 111" cx="15.5" cy="15" rx="15.5" ry="15" transform="translate(-0.422 0.467)"/>
+          </g>
+          <ellipse id="Ellipse_127" data-name="Ellipse 127" cx="15" cy="15.5" rx="15" ry="15.5" transform="translate(485.334 1729.334)"/>
+          <g id="Group_73312" data-name="Group 73312" transform="translate(414.756 1729.589)">
+            <circle id="Ellipse_111-2" data-name="Ellipse 111" cx="15.5" cy="15.5" r="15.5" transform="translate(-0.422 -0.255)"/>
+          </g>
+          <line id="Line_1014" data-name="Line 1014" x2="43.889" transform="translate(440.283 1706.228)" fill="none" stroke="#000" stroke-width="4"/>
+          <line id="Line_1015" data-name="Line 1015" x2="43.889" transform="translate(440.283 1741.951)" fill="none" stroke="#000" stroke-width="4"/>
+          <line id="Line_1013" data-name="Line 1013" x2="43.889" transform="translate(440.283 1670.506)" fill="none" stroke="#000" stroke-width="4"/>
+          <g id="Group_73121" data-name="Group 73121" transform="translate(446.867 1690.867)">
+            <g id="Ellipse_107-2" data-name="Ellipse 107" transform="translate(0.467 0.467)" fill="#fff" stroke="#000" stroke-width="2">
+              <circle cx="15" cy="15" r="15" stroke="none"/>
+              <circle cx="15" cy="15" r="14" fill="none"/>
+            </g>
+          </g>
+          <g id="Group_73119" data-name="Group 73119" transform="translate(446.867 1726.589)">
+            <g id="Ellipse_109-2" data-name="Ellipse 109" transform="translate(0.467 -0.255)" fill="#fff" stroke="#000" stroke-width="2">
+              <ellipse cx="15" cy="15.5" rx="15" ry="15.5" stroke="none"/>
+              <ellipse cx="15" cy="15.5" rx="14" ry="14.5" fill="none"/>
+            </g>
+          </g>
+          <g id="Ellipse_110" data-name="Ellipse 110" transform="translate(482.334 1691.334)" fill="#fff" stroke="#000" stroke-width="2">
+            <circle cx="15" cy="15" r="15" stroke="none"/>
+            <circle cx="15" cy="15" r="14" fill="none"/>
+          </g>
+          <text id="O" transform="translate(497.334 1712.334)" font-size="17" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-6" y="0">O</tspan></text>
+          <g id="Ellipse_113" data-name="Ellipse 113" transform="translate(482.334 1655.334)" fill="#ff905e" stroke="#000" stroke-width="2">
+            <ellipse cx="15" cy="15.5" rx="15" ry="15.5" stroke="none"/>
+            <ellipse cx="15" cy="15.5" rx="14" ry="14.5" fill="none"/>
+          </g>
+          <text id="W" transform="translate(497.334 1677.334)" font-size="17" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-8" y="0">W</tspan></text>
+          <g id="Ellipse_108" data-name="Ellipse 108" transform="translate(447.334 1655.334)" fill="#ff905e" stroke="#000" stroke-width="2">
+            <ellipse cx="15" cy="15.5" rx="15" ry="15.5" stroke="none"/>
+            <ellipse cx="15" cy="15.5" rx="14" ry="14.5" fill="none"/>
+          </g>
+          <text id="O-2" data-name="O" transform="translate(462.334 1677.334)" font-size="17" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-6" y="0">O</tspan></text>
+          <g id="Ellipse_114" data-name="Ellipse 114" transform="translate(411.334 1655.334)" fill="#ff905e" stroke="#000" stroke-width="2">
+            <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+            <circle cx="15.5" cy="15.5" r="14.5" fill="none"/>
+          </g>
+          <text id="R" transform="translate(426.334 1677.334)" font-size="17" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-5" y="0">R</tspan></text>
+          <g id="Group_73120" data-name="Group 73120" transform="translate(411.756 1690.867)">
+            <g id="Ellipse_111-3" data-name="Ellipse 111" transform="translate(-0.422 0.467)" fill="#fff" stroke="#000" stroke-width="2">
+              <ellipse cx="15.5" cy="15" rx="15.5" ry="15" stroke="none"/>
+              <ellipse cx="15.5" cy="15" rx="14.5" ry="14" fill="none"/>
+            </g>
+          </g>
+          <g id="Ellipse_110-2" data-name="Ellipse 110" transform="translate(482.334 1726.334)" fill="#fff" stroke="#000" stroke-width="2">
+            <ellipse cx="15" cy="15.5" rx="15" ry="15.5" stroke="none"/>
+            <ellipse cx="15" cy="15.5" rx="14" ry="14.5" fill="none"/>
+          </g>
+          <text id="R-2" data-name="R" transform="translate(497.334 1748.334)" font-size="17" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-5" y="0">R</tspan></text>
+          <g id="Group_73123" data-name="Group 73123" transform="translate(411.756 1726.589)">
+            <g id="Ellipse_111-4" data-name="Ellipse 111" transform="translate(-0.422 -0.255)" fill="#fff" stroke="#000" stroke-width="2">
+              <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+              <circle cx="15.5" cy="15.5" r="14.5" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectangle_18163" data-name="Rectangle 18163" width="120" height="120" fill="none"/>
+</svg>

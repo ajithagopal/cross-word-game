@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TH Games</title>
+  <meta name="title" content="The Hindu" />
+  <link rel="icon" type="image/x-icon" href="https://www.thehindu.com/favicon.ico" />
+  
+  <!-- CSS Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  
+</head>
+
+<body>
+  <div data-include="header.html"></div>
+
+  <!-- Dynamic Content Section -->
+  <div id="dynamic-content"></div>
+
+  <!-- Footer Navigation -->
+  <footer>
+    <div class="container">
+      <div class="nav-bar" id="nav-bar">
+        <span class="slider active-slider" id="active-slider"></span>
+        <span class="slider hover-slider" id="hover-slider"></span>
+
+        <button class="nav-btn home active" data-target="home"><span>Home</span></button>
+        <button class="nav-btn crossword" data-target="crossword"><span>Crossword</span></button>
+        <button class="nav-btn sudoku" data-target="sudoku"><span>Sudoku</span></button>
+        <button class="nav-btn word-games" data-target="wordgames"><span>Word Games</span></button>
+        <button class="nav-btn quiz" data-target="quiz"><span>Quiz</span></button>
+      </div>
+     
+    </div>
+     
+  <div class="container footer-container">
+    <p class="copyrights">Copyright &copy; 2025, THG PUBLISHING PVT LTD.</p>
+  </div>
+  </footer>
+
+
+  <script>
+  $(document).ready(function() {
+    $('.card.completed').each(function () {
+      $(this).find('.play-btn').text('PLAY AGAIN');
+      if ($(this).find('.done').length === 0) {
+        $(this).append('<span class="done"></span>');
+      }
+    });
+  });
+</script>
+
+
+
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./assets/js/custom.js"></script>
+
+  <!-- Dynamic Include Script -->
+  <script>
+    $(function () {
+      var includes = $('[data-include]');
+      $.each(includes, function () {
+        var file = $(this).data('include');
+        $(this).load(file);
+      });
+    });
+  </script>
+
+  <!-- Main Navigation Script -->
+  <script>
+    const navBar = document.getElementById("nav-bar");
+    const buttons = document.querySelectorAll(".nav-btn");
+    const activeSlider = document.getElementById("active-slider");
+    const hoverSlider = document.getElementById("hover-slider");
+
+    let activeBtn = document.querySelector(".nav-btn.active");
+
+    function updateSliderPosition(slider, button) {
+      const { offsetLeft, offsetWidth } = button;
+      slider.style.left = `${offsetLeft}px`;
+      slider.style.width = `${offsetWidth}px`;
+    }
+
+    function loadContent(page) {
+      $("#dynamic-content").fadeOut(200, function () {
+        $(this).load(`${page}.html`, function () {
+          $(this).fadeIn(200);
+        });
+      });
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        activeBtn.classList.remove("active");
+        btn.classList.add("active");
+        activeBtn = btn;
+        updateSliderPosition(activeSlider, btn);
+
+        const targetId = btn.getAttribute("data-target");
+        loadContent(targetId);
+      });
+
+      btn.addEventListener("mouseenter", () => {
+        updateSliderPosition(hoverSlider, btn);
+        hoverSlider.style.opacity = 1;
+      });
+    });
+
+    navBar.addEventListener("mouseleave", () => {
+      hoverSlider.style.opacity = 0;
+    });
+
+    window.addEventListener("load", () => {
+      updateSliderPosition(activeSlider, activeBtn);
+      loadContent("home"); // Load home page by default
+    });
+  </script>
+</body>
+
+</html>

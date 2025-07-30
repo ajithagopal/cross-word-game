@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TH Games</title>
+  <meta name="title" content="The Hindu" />
+  <link rel="icon" type="image/x-icon" href="https://www.thehindu.com/favicon.ico" />
+  
+  <!-- CSS Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  
+</head>
+
+<body>
+  <div data-include="header.html"></div>
+    
+  <section id="dynamic-content" class="sudoku-section bg-yellow">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card-wrapper puzzle">
+            <div class="card bg-yellow">
+              <div class="card-image">
+                <img src="./assets/images/suduko-large.svg">
+              </div>
+              <div class="content">  
+                <p class="title">Sudoku</p>
+                <p class="content">A number puzzle where you place digits without repeating in rows, columns, or boxes.</p>
+                <p class="date">Wed 9 April 2025</p>
+                <p class="level">Choose Your Puzzle</p>
+                <ul class="lists text-center">
+                    <li class="">MINI</li>
+                    <li class="">EASY</li>
+                    <li class="">MEDIUM</li>
+                    <li class="">HARD</li>
+                    <li class="killer">KILLER</li>
+                </ul>
+              </div>
+            </div>    
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./assets/js/custom.js"></script>
+
+  <script>
+    $(function () {
+      var includes = $('[data-include]');
+      $.each(includes, function () {
+        var file = $(this).data('include');
+        $(this).load(file);
+      });
+    });
+  </script>
+ 
+</body>
+
+</html>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Group_73247" data-name="Group 73247" transform="translate(-1360 -1194)">
+    <rect id="Rectangle_18238" data-name="Rectangle 18238" width="100" height="100" transform="translate(1375 1209)"/>
+    <g id="Group_73246" data-name="Group 73246" transform="translate(232.313 -1513.5)">
+      <rect id="Rectangle_18239" data-name="Rectangle 18239" width="33" height="33" transform="translate(1170.688 2718.5)" fill="#fff"/>
+      <rect id="Rectangle_18240" data-name="Rectangle 18240" width="33" height="33" transform="translate(1204.021 2750.833)" fill="#fff"/>
+      <rect id="Rectangle_18241" data-name="Rectangle 18241" width="33" height="33" transform="translate(1171.688 2783.833)" fill="#fff"/>
+      <rect id="Rectangle_18242" data-name="Rectangle 18242" width="33" height="33" transform="translate(1138.688 2751.833)" fill="#fff"/>
+      <rect id="Rectangle_18243" data-name="Rectangle 18243" width="34" height="34" transform="translate(1170.688 2749.833)" fill="#fff447"/>
+      <path id="Rectangle_18244" data-name="Rectangle 18244" d="M2,0H33a0,0,0,0,1,0,0V33a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(1137.688 2717.5)" fill="#fff447"/>
+      <path id="Rectangle_18245" data-name="Rectangle 18245" d="M2,0H33a0,0,0,0,1,0,0V33a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(1204.688 2717.5)" fill="#fff447"/>
+      <rect id="Rectangle_18246" data-name="Rectangle 18246" width="33" height="33" transform="translate(1204.688 2784.5)"/>
+      <path id="Rectangle_18247" data-name="Rectangle 18247" d="M2,0H33a0,0,0,0,1,0,0V33a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(1137.688 2784.5)" fill="#fff"/>
+      <line id="Line_1057" data-name="Line 1057" y2="100" transform="translate(1137.688 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1058" data-name="Line 1058" x2="99.812" transform="translate(1137.688 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1059" data-name="Line 1059" y2="100" transform="translate(1171.021 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1060" data-name="Line 1060" y2="100" transform="translate(1204.355 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1061" data-name="Line 1061" y2="100" transform="translate(1237.688 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1062" data-name="Line 1062" x2="99.812" transform="translate(1137.688 2750.833)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1063" data-name="Line 1063" x2="99.812" transform="translate(1137.688 2784.167)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_1064" data-name="Line 1064" x2="99.812" transform="translate(1137.688 2817.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <text id="_1" data-name="1" transform="translate(1144.688 2724.5)" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="5" y="20">1</tspan></text>
+      <text id="_3" data-name="3" transform="translate(1211.688 2724.5)" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="4" y="20">3</tspan></text>
+      <text id="_2" data-name="2" transform="translate(1175.688 2756.5)" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="3" y="20">2</tspan></text>
+      <g id="noun-hard-6721293" transform="translate(1190.948 2784.167)">
+        <g id="Group_73245" data-name="Group 73245" transform="translate(13.898)">
+          <path id="Path_9597" data-name="Path 9597" d="M29.7,50.6H44.982V64.634H29.7Z" transform="translate(-23.88 -31.967)" fill="#fff"/>
+          <path id="Path_9598" data-name="Path 9598" d="M28.059,31.818l.443-.443,3.307,3.307-.443.443Z" transform="translate(-22.844 -19.821)" fill="#fff"/>
+          <path id="Path_9599" data-name="Path 9599" d="M23.266,43.768l.083-.62,4.782.639-.083.62Z" transform="translate(-19.816 -27.258)" fill="#fff"/>
+          <path id="Path_9600" data-name="Path 9600" d="M63.855,44.375l5.189-.649.078.621L63.933,45Z" transform="translate(-45.457 -27.623)" fill="#fff"/>
+          <path id="Path_9601" data-name="Path 9601" d="M21.223,25.741l.322-1.362,1.362.322-.322,1.362Z" transform="translate(-18.525 -15.401)" fill="#fff"/>
+          <path id="Path_9602" data-name="Path 9602" d="M13.9,42.488l.184-1.988,1.51,1.142Z" transform="translate(-13.898 -25.585)" fill="#fff"/>
+          <path id="Path_9603" data-name="Path 9603" d="M84.189,42.289,83.93,40.3,82.2,41.516Z" transform="translate(-57.046 -25.459)" fill="#fff"/>
+          <path id="Path_9604" data-name="Path 9604" d="M59.409,0,52.19,3.13a10.44,10.44,0,0,0-2.5,2.025c-.331.295-3.388,3.093-3.867,4.273L45.6,10.2v7.771l.331-.037c.147,0,3.314-.442,3.5-2.762.037-.295.037-1.326.037-2.283V11.234a22.445,22.445,0,0,1,3.13-2.946c.037-.037,1.8-1.178,3.057-.368.184.111.222.222.222.295v.037a1.32,1.32,0,0,1-.406.737c-2.431,1.031-3.425,1.473-3.829,1.695l-.147.073a1.051,1.051,0,0,0-.184.147l-.442.368a1.889,1.889,0,0,0-.515,1.252,2.318,2.318,0,0,0,.184.81A2.1,2.1,0,0,0,53,14.364c2.172-.663,6.223-2.025,7.4-2.54.921-.406,2.21-1.51,2.984-4.677C63.5,7.036,65.046,5.674,65.6,5.2V4.348c0,.037-.147.147-.222.222l-2.54,2.247-.037.111c-.552,2.32-1.51,3.867-2.651,4.346-1.178.479-5.156,1.879-7.328,2.5a1.455,1.455,0,0,1-1.731-.7,1.548,1.548,0,0,1-.147-.552,1.339,1.339,0,0,1,.073-.368,1.839,1.839,0,0,1,.921-.921c.037,0,.663-.295.663-.295h-.037c.663-.295,1.731-.774,3.13-1.362l.075-.075a1.9,1.9,0,0,0,.626-1.216V8.179a1.033,1.033,0,0,0-.515-.774c-1.584-.994-3.609.331-3.683.368a22.415,22.415,0,0,0-3.352,3.168l-.073.073v1.879c0,.921,0,1.952-.037,2.247-.111,1.436-1.841,1.952-2.615,2.136v-7c0-.073.184-.626.184-.626.368-.883,2.8-3.241,3.72-4.051a9.508,9.508,0,0,1,2.32-1.879L60.187.336C60.366.258,60.661,0,60.7,0H59.41Z" transform="translate(-33.924)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_18248" data-name="Rectangle 18248" width="120" height="120" transform="translate(1360 1194)" fill="none"/>
+  </g>
+</svg>

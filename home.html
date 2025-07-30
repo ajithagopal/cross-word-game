@@ -1,0 +1,135 @@
+  <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title">Today's Puzzle  <span>Wed 9 April 2025</span></h2>
+
+            <div class="card-wrapper">
+              
+              <div class="card bg-purple cryptic"> 
+                <span class="premium"></span>
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">The Hindu Cryptic</p>
+                  <p class="text">Twist Your Brain </p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>
+              </div>
+        
+              <div class="card bg-yellow sudoku">
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">Sudoku</p>
+                  <p class="text">Digits Go Wild </p>
+                  <!-- <button class="play-btn">PLAY NOW</button> -->
+                    <a href="./puzzle.html"><button class="play-btn">PLAY NOW</button></a>
+                </div>
+              </div>
+
+              <div class="card bg-orange word-search completed">
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">Word Search</p>
+                  <p class="text">Where Words Hide </p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>
+              </div>
+        
+              <div class="card bg-green news-quiz">
+                <span class="free-btn">FREE</span>
+                <div class="img-box"></div>
+                <div class="content">
+                  <!-- <span class="free-btn active">FREE</span> -->
+                  <p class="title">Daily Quiz</p>
+                  <p class="text">Current Affairs Chaos </p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>
+              </div>
+        
+              <div class="card bg-orange fun-quiz">
+                <span class="free-btn">FREE</span>
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">Word Flower</p>
+                  <p class="text">Unfolding Words</p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>
+              </div>
+        
+              <div class="card bg-orange word-row">
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">Word Row</p>
+                  <p class="text">Spell It Fast </p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>  
+              </div>
+        
+              <div class="card bg-purple easy-down">     
+                <span class="free-btn">FREE</span>
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">Easy Down</p>
+                  <p class="text">Easy Clue Wonder </p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>  
+              </div>
+        
+              <div class="card bg-purple india-mini">
+                <div class="img-box"></div>
+                <div class="content">
+                  <p class="title">The Hindu Mini</p>
+                  <p class="text">India-themed challenge</p>
+                  <button class="play-btn">PLAY NOW</button>
+                </div>  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <script>
+   $(document).ready(function() {
+  $('.card').each(function () {
+    if ($(this).hasClass('completed')) {
+      $(this).find('.play-btn').text('PLAY AGAIN');
+
+      if ($(this).find('.done').length === 0) {
+        $(this).append('<span class="done"></span>');
+      }
+    } 
+    else {
+      $(this).find('.play-btn').text('PLAY NOW');
+    }
+  });
+});
+
+  </script>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".btn-signup").click(function(){ 
+        $(".header").removeClass("logged-out subscribed");
+        $(".header").addClass("logged-in");
+        return false;
+    });
+    $(".btn-account").click(function(){ 
+        $(".header").removeClass("logged-in subscribed");
+        $(".header").addClass("logged-out");
+        return false;
+    });
+    $(".btn-subscribe").click(function(){ 
+        $(".header").removeClass("logged-in logged-out");
+        $(".header").addClass("subscribed");
+        // $(".mobile-show").css("display", "none");
+        $(".mobile-show").hide();
+        return false;
+    });
+  });
+
+</script>
+
+

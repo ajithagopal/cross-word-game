@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Group_73274" data-name="Group 73274" transform="translate(-433 -2183)">
+    <g id="noun-quiz-21610_2_" data-name="noun-quiz-21610 (2)" transform="translate(435.72 2190)">
+      <g id="Group_73145" data-name="Group 73145" transform="translate(4.28 20)">
+        <g id="Group_73163" data-name="Group 73163">
+          <rect id="Rectangle_18160" data-name="Rectangle 18160" width="40" height="40" rx="5" transform="matrix(0.985, 0.174, -0.174, 0.985, 9.133, 12.485)" fill="#a5df78"/>
+          <g id="Rectangle_18171" data-name="Rectangle 18171" transform="matrix(0.985, 0.174, -0.174, 0.985, 9.133, 12.485)" stroke="#000" stroke-width="2">
+            <rect width="40" height="40" rx="5" stroke="none"/>
+            <rect x="1" y="1" width="38" height="38" rx="4" fill="none"/>
+          </g>
+          <path id="Path_9572" data-name="Path 9572" d="M35.425,41.482a11.764,11.764,0,0,0-6.237-2.691,9.749,9.749,0,0,0-1.407-.1,9.872,9.872,0,0,0-5.495,1.64,6.213,6.213,0,0,0-2.846,4.161,2.372,2.372,0,0,0,.524,1.956,2.805,2.805,0,0,0,1.73.886,3.615,3.615,0,0,0,.513.04c1.429,0,2.068-.975,2.685-1.917.688-1.055,1.341-2.052,3.075-2.052a5.486,5.486,0,0,1,.769.058c2.055.3,3.081,1.512,2.817,3.336-.225,1.567-1.762,2.435-3.387,3.351-1.825,1.03-3.9,2.2-4.24,4.586a2.886,2.886,0,0,0,.373,1.9,2.454,2.454,0,0,0,1.814,1.151,4.353,4.353,0,0,0,.593.045h0c1.412,0,1.893-.868,2.356-1.707a5.209,5.209,0,0,1,.687-1.038,8.392,8.392,0,0,1,2.111-1.314c2.2-1.132,5.217-2.686,5.711-6.108A6.74,6.74,0,0,0,35.425,41.482Z" transform="translate(-1.785 -16.919)" fill="#fff"/>
+          <path id="Path_9573" data-name="Path 9573" d="M25.584,56.7a3.26,3.26,0,1,0-.932,6.453,3.1,3.1,0,0,0,.462.033,3.26,3.26,0,0,0,.469-6.486Z" transform="translate(-1.383 -13.956)" fill="#fff"/>
+        </g>
+        <rect id="Rectangle_18159" data-name="Rectangle 18159" width="59.158" height="58.744" rx="5" transform="translate(41.594 8.561) rotate(-8)" fill="#a5df78"/>
+        <g id="Rectangle_18170" data-name="Rectangle 18170" transform="translate(40.585 7.722) rotate(-8)" fill="none" stroke="#000" stroke-width="2">
+          <rect width="60" height="60" rx="5" stroke="none"/>
+          <rect x="1" y="1" width="58" height="58" rx="4" fill="none"/>
+        </g>
+        <g id="noun-video-1395738" transform="matrix(0.995, -0.105, 0.105, 0.995, 53.379, 17.875)">
+          <path id="Path_9580" data-name="Path 9580" d="M0,0,38.353.079l.053,22.849L.053,22.849Z" transform="translate(-0.133 6.355) rotate(-1)" fill="#fff"/>
+          <path id="Path_9576" data-name="Path 9576" d="M35.936,30H2.914A2.783,2.783,0,0,1,0,27.368V7.632A2.783,2.783,0,0,1,2.914,5H35.936A2.783,2.783,0,0,1,38.85,7.632V27.368A2.783,2.783,0,0,1,35.936,30ZM2.914,6.754a.928.928,0,0,0-.971.877V27.368a.928.928,0,0,0,.971.877H35.936a.928.928,0,0,0,.971-.877V7.632a.928.928,0,0,0-.971-.877Z" transform="translate(0.017)"/>
+          <path id="Path_9577" data-name="Path 9577" d="M32.21,23.2v8.62A1.48,1.48,0,0,0,34.6,32.98l5.511-4.308a1.48,1.48,0,0,0,0-2.334L34.6,22.031A1.48,1.48,0,0,0,32.21,23.2Z" transform="translate(-16.621 -10.027)"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_18164" data-name="Rectangle 18164" width="120" height="120" transform="translate(433 2183)" fill="none"/>
+  </g>
+</svg>

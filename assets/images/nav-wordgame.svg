@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.05" height="50" viewBox="0 0 51.05 50">
+  <g id="Group_73179" data-name="Group 73179" transform="translate(-17569 963)">
+    <g id="Group_73178" data-name="Group 73178" transform="translate(-25)">
+      <rect id="Rectangle_18068" data-name="Rectangle 18068" width="14.328" height="14.328" transform="translate(17612.334 -958.847)" fill="#fff"/>
+      <rect id="Rectangle_18069" data-name="Rectangle 18069" width="14.328" height="14.328" transform="translate(17626.807 -944.808)" fill="#fff"/>
+      <rect id="Rectangle_18070" data-name="Rectangle 18070" width="14.328" height="14.328" transform="translate(17612.768 -930.48)" fill="#fff"/>
+      <rect id="Rectangle_18071" data-name="Rectangle 18071" width="14.328" height="14.328" transform="translate(17598.439 -944.374)" fill="#fff"/>
+      <rect id="Rectangle_18061" data-name="Rectangle 18061" width="14.762" height="14.762" transform="translate(17612.334 -945.242)" fill="#fff"/>
+      <rect id="Rectangle_18057" data-name="Rectangle 18057" width="14.328" height="14.328" transform="translate(17598.006 -959.281)" fill="#fff"/>
+      <rect id="Rectangle_18058" data-name="Rectangle 18058" width="14.328" height="14.328" transform="translate(17627.096 -959.281)" fill="#fff"/>
+      <rect id="Rectangle_18059" data-name="Rectangle 18059" width="14.328" height="14.328" transform="translate(17627.096 -930.19)" fill="#fff"/>
+      <rect id="Rectangle_18060" data-name="Rectangle 18060" width="14.328" height="14.328" transform="translate(17598.006 -930.19)" fill="#fff"/>
+      <line id="Line_960" data-name="Line 960" y2="43.419" transform="translate(17598.006 -959.281)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_961" data-name="Line 961" x2="43.337" transform="translate(17598.006 -959.281)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_962" data-name="Line 962" y2="43.419" transform="translate(17612.479 -959.281)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_963" data-name="Line 963" y2="43.419" transform="translate(17626.951 -959.281)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_964" data-name="Line 964" y2="43.419" transform="translate(17641.424 -959.281)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_965" data-name="Line 965" x2="43.337" transform="translate(17598.006 -944.808)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_966" data-name="Line 966" x2="43.337" transform="translate(17598.006 -930.335)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_967" data-name="Line 967" x2="43.337" transform="translate(17598.006 -915.862)" fill="none" stroke="#000" stroke-width="1"/>
+      <g id="Path_9558" data-name="Path 9558" transform="matrix(0.695, -0.719, 0.719, 0.695, 17594, -952.603)" fill="rgba(255,144,94,0.9)">
+        <path d="M 7.226734161376953 56.51090240478516 C 3.517604112625122 56.51090240478516 0.5000041723251343 53.18117141723633 0.5000041723251343 49.08838272094727 L 0.5000041723251343 7.922521114349365 C 0.5000041723251343 3.829731225967407 3.517604112625122 0.5000011920928955 7.226734161376953 0.5000011920928955 C 10.93586444854736 0.5000011920928955 13.95346450805664 3.829731225967407 13.95346450805664 7.922521114349365 L 13.95346450805664 49.08838272094727 C 13.95346450805664 53.18117141723633 10.93586444854736 56.51090240478516 7.226734161376953 56.51090240478516 Z" stroke="none"/>
+        <path d="M 7.226734161376953 1 C 3.793304443359375 1 1.000003814697266 4.105430603027344 1.000003814697266 7.922519683837891 L 1.000003814697266 49.08838272094727 C 1.000003814697266 52.90547180175781 3.793304443359375 56.01090240478516 7.226734161376953 56.01090240478516 C 10.66016387939453 56.01090240478516 13.45346450805664 52.90547180175781 13.45346450805664 49.08838272094727 L 13.45346450805664 7.922519683837891 C 13.45346450805664 4.105430603027344 10.66016387939453 1 7.226734161376953 1 M 7.226734161376953 0 C 11.21794414520264 0 14.45346450805664 3.547031402587891 14.45346450805664 7.922519683837891 L 14.45346450805664 49.08838272094727 C 14.45346450805664 53.46387100219727 11.21794414520264 57.01090240478516 7.226734161376953 57.01090240478516 C 3.235513687133789 57.01090240478516 3.814697265625e-06 53.46387100219727 3.814697265625e-06 49.08838272094727 L 3.814697265625e-06 7.922519683837891 C 3.814697265625e-06 3.547031402587891 3.235513687133789 0 7.226734161376953 0 Z" stroke="none" fill="#000"/>
+      </g>
+    </g>
+    <rect id="Rectangle_18172" data-name="Rectangle 18172" width="50" height="50" transform="translate(17570 -963)" fill="none"/>
+  </g>
+</svg>

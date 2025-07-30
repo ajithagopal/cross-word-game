@@ -1,0 +1,296 @@
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".menu-btn").click(function () {
+      $(this).toggleClass('opened');
+      $('.header').toggleClass('opened');
+    });
+    var offset1 = $(".header-end").outerHeight();
+    //var offset2 = $(".header").outerHeight();
+    //var offset3 = $(".header").offset().top;
+
+    var currentScrollPos = window.pageYOffset;
+    $(this).scroll(function () {
+      if ($(window).scrollTop() < offset1) {
+        $(".header").removeClass("header-move");
+      }
+    });
+    $(this).scroll(function () {
+      if ($(this).scrollTop() > offset1 + 10) {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          $(".header").addClass("header-move");
+          $(".header").css("transform", "translateY(0px)");
+        } else {
+          if ($(window).width() > 1040) {
+            $(".header").css("transform", "translateY(-250px)");
+          }
+          else {
+            $(".header").css("transform", "translateY(-100px)");
+          }
+
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      else if ($(this).scrollTop() < offset1 + 10) {
+        $(".header").css("transform", "translateY(0px)");
+      }
+      prevScrollpos = window.pageYOffset;
+
+    });
+  });  
+</script>
+<script>
+  document.getElementById('openMenu').addEventListener('click', () => {
+    document.getElementById('openMenu').style.display = "none";
+    document.getElementById('closeMenu').style.display = "block";
+    document.getElementById('menu').classList.add('open');
+    document.querySelector('.header').classList.add('bg');
+  });
+
+  document.getElementById('closeMenu').addEventListener('click', () => {
+    document.getElementById('openMenu').style.display = "block";
+    document.getElementById('closeMenu').style.display = "none";
+    document.getElementById('menu').classList.remove('open');
+    document.querySelector('.header').classList.remove('bg');
+  });
+
+   $(document).ready(function() {
+    $('.card.completed').each(function () {
+      $(this).find('.play-btn').text('PLAY AGAIN');
+      if ($(this).find('.done').length === 0) {
+        $(this).append('<span class="done"></span>');
+      }
+    });
+  });
+
+
+</script>
+ <script>
+    $(document).ready(function () {
+        const letters = ['S', 'E', 'M', 'A', 'G'];
+        const supers = ['5', '4', '3', '2', '1'];
+        const targets = [...document.querySelectorAll('.target')];
+        const white = document.getElementById('white-box');
+        const black = document.getElementById('start-box');
+ 
+        function sleep(ms) {
+            return new Promise(res => setTimeout(res, ms));
+        }
+ 
+        function getCoords(el) {
+            const rect = el.getBoundingClientRect();
+            return { x: rect.left + window.scrollX, y: rect.top + window.scrollY };
+        }
+ 
+        function getTextColorForTile(tile) {
+            if (tile.classList.contains('white')) return 'black';
+            if (tile.classList.contains('black')) return 'white';
+            return 'black';
+        }
+ 
+        async function animateLetter(index) {
+            const letter = document.createElement('div');
+            letter.className = 'letter';
+            letter.innerHTML = `${letters[index]}<sup class="sup">${supers[index]}</sup>`;
+            document.body.appendChild(letter);
+ 
+            const blackPos = getCoords(black);
+            const whitePos = getCoords(white);
+            letter.style.left = blackPos.x + 'px';
+            letter.style.top = blackPos.y + 'px';
+            letter.style.color = getTextColorForTile(black);
+ 
+            await sleep(200);
+ 
+            letter.style.color = getTextColorForTile(white);
+            letter.style.transform = `translate(${whitePos.x - blackPos.x}px, ${whitePos.y - blackPos.y}px)`;
+            await sleep(200);
+ 
+            const finalIndex = 4 - index;
+            let current = whitePos;
+ 
+            for (let j = 0; j <= finalIndex; j++) {
+                const target = targets[j];
+                const targetPos = getCoords(target);
+ 
+                letter.style.color = getTextColorForTile(target);
+                letter.style.transform = `translate(${targetPos.x - blackPos.x}px, ${targetPos.y - blackPos.y}px)`;
+                current = targetPos;
+ 
+                await sleep(200);
+ 
+                if (j === 1 && index + 1 < letters.length) {
+                    animateLetter(index + 1);
+                }
+            }
+            letter.style.transition = 'none';
+            letter.style.left = current.x + 'px';
+            letter.style.top = current.y + 'px';
+            letter.style.transform = 'none';
+        }
+ 
+        async function animateAll() {
+            [white, black, ...targets].forEach(tile => tile.classList.add('show'));
+            await sleep(200);
+            animateLetter(0);
+        }
+ 
+        window.onload = animateAll;
+
+        animateAll();
+
+    // window.addEventListener('pageshow', (event) => {
+    //   if (!hasAnimated) {
+    //     setTimeout(() => animateAll(), 200);
+    //   }
+    // });
+      })
+    </script>
+
+<header class="header logged-out">
+  <div class="container">
+    <div class="main-menu">
+      <div class="left-menu">
+         <div class="mobile-show">
+            <a href="" class="btn-subscribe">
+            SUBSCRIBE
+            </a>
+         </div>
+        <img class="hamburger" id="openMenu"
+          src="https://assetsth.thehindu.co.in/theme/images/th-online/menu-hamber-icon.svg" alt="HamberMenu">
+          <div class="close-button-container">
+            <!-- <button class="close" id="closeMenu">&times;</button> -->
+            <img class="close" id="closeMenu"
+            src="./assets/images/menu-close-icon.svg">
+          </div>
+      </div>
+
+      <div class="main-logo">
+        <a href="index.html">
+          <img src="./assets/images/TH Games Logo 1.gif" alt="The Hindu Games Logo" />
+        </a>
+        <!-- <div class="game-wrapper">
+          <div class="top-row">
+              <div class="tile white" id="white-box"></div>
+              <div class="tile black" id="start-box"></div>
+          </div>
+          <div class="bottom-row">
+              <div class="tile purple target" id="box0"></div>
+              <div class="tile yellow target" id="box1"></div>
+              <div class="tile orange target" id="box2"></div>
+              <div class="tile green target" id="box3"></div>
+              <div class="tile purple target" id="box4"></div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="right-menu">
+        <div class="account-buttons">
+          <div class="mobile-hide">
+            <a href="#" class="btn-subscribe">
+            SUBSCRIBE
+            </a>
+         </div>
+         <div>
+            <a href="#my-stats" class="btn btn-state">
+              <span class="label">My Stats</span>
+              <span class="icon">
+                <img src="./assets/images/status.svg" alt="">
+              </span>
+            </a>
+
+            <a href="#my-account" class="btn btn-account">
+              <span class="label">My Account</span>
+              <span class="icon">
+                <img src="./assets/images/account.svg" alt="">
+              </span>
+            </a>
+
+            <a href="#signup" class="btn btn-signup">
+              <span class="label">Login</span>
+              <span class="icon">
+                <img src="./assets/images/account.svg" alt="">
+              </span>
+            </a>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="menu mobile-menu" id="menu">
+      <!-- <div class="close-button-container">
+        <button class="close" id="closeMenu">&times;</button>
+      </div> -->
+      <div class="menu-grid">
+        <div class="menu-section">
+          <h3 class="menu-title icon crossword-menu">Crossword</h3>
+          <ul class="base-list">
+            <li><a href="#">The Hindu Cryptic</a></li>
+            <li><a href="#">Sunday Special Cryptic</a></li>
+            <li><a href="#">Easy Down</a></li>
+            <li><a href="#">India Mini</a></li>
+          </ul>
+        </div>
+        <div class="menu-section">
+          <h3 class="menu-title icon Sudoku-menu">Sudoku</h3>
+          <ul>
+            <li><a href="#">Mini Sudoku</a></li>
+            <li><a href="#">Sudoku Easy</a></li>
+            <li><a href="#">Sudoku Medium</a></li>
+            <li><a href="#">Sudoku Hard</a></li>
+            <li><a href="#">Killer Sudoku</a></li>
+          </ul>
+        </div>
+        <div class="menu-section">
+          <h3 class="menu-title icon Word-search-menu">Word Games</h3>
+          <ul>
+            <li><a href="#">Word Flower</a></li>
+            <li><a href="#">Word Search</a></li>
+            <li><a href="#">Word Row</a></li>
+          </ul>
+          <h3 class="menu-title icon Quiz-menu">Quiz</h3>
+          <ul>
+            <li><a href="#">Daily Quiz</a></li>
+            <li><a href="#">Topic Quiz</a></li>
+          </ul>
+        </div>
+        <div class="menu-section">
+          <h3 class="menu-title about-crossword-menu">About Crossword</h3>
+          <ul>
+            <li><a href="#">Help & Support us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">TH Games Subscription</a></li>
+            <li><a href="#">Crossword e-book</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="link-container">
+        <div class="header-social-icon">
+          <label class="label">Connect with us</label>
+          <a href="#" class="whatsapp"></a>
+          <a href="#" class="facebook"></a>
+          <a href="#" class="twitter"></a>
+          <a href="#" class="insta"></a>
+          <a href="#" class="ln"></a>
+          <a href="#" class="youtube"></a>
+          <a href="#" class="spotify"></a>
+          <a href="#" class="telegram"></a>
+        </div>
+      </div> -->
+    </nav>
+    <!-- <div class="mobile-menu hide-system">
+               <ul class="menu">
+                   <li><a href="about-us.html">ABOUT US</a></li>
+                   <li><a href="publications.html">PUBLICATIONS</a></li>
+                   <li><a href="events.html">EVENTS</a></li>
+                   <li><a href="people.html">PEOPLE</a></li>
+                   <li><a href="books.html">BOOKS</a></li>
+                   <li><a href="subscription.html">SUBSCRIPTION</a></li>
+                   <li><a href="advertising.html">ADVERTISING</a></li>
+                   <li><a href="contact.html">CONTACTS</a></li>
+               </ul>
+           </div> -->
+  </div>
+</header>
+
+<!-- <div class="header-end"></div> -->

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="Group_73089" data-name="Group 73089" transform="translate(-416 -799)">
+    <rect id="Rectangle_18157" data-name="Rectangle 18157" width="150" height="150" transform="translate(446 829)"/>
+    <rect id="Rectangle_18140" data-name="Rectangle 18140" width="200" height="200" transform="translate(416 799)" fill="none"/>
+    <g id="Group_73309" data-name="Group 73309" transform="translate(-696.688 -1893.5)">
+      <rect id="Rectangle_18070" data-name="Rectangle 18070" width="50" height="50" transform="translate(1188.543 2816.718)" fill="#fff"/>
+      <rect id="Rectangle_18068" data-name="Rectangle 18068" width="50" height="50" transform="translate(1186.688 2718.5)" fill="#fff"/>
+      <rect id="Rectangle_18069" data-name="Rectangle 18069" width="50" height="50" transform="translate(1236.906 2767.358)" fill="#fff"/>
+      <rect id="Rectangle_18071" data-name="Rectangle 18071" width="50" height="50" transform="translate(1138.184 2767.854)" fill="#fff"/>
+      <rect id="Rectangle_18061" data-name="Rectangle 18061" width="50" height="50" transform="translate(1187.047 2767.862)"/>
+      <rect id="Rectangle_18057" data-name="Rectangle 18057" width="50" height="50" transform="translate(1137.688 2717.5)" fill="#abe9e1"/>
+      <rect id="Rectangle_18058" data-name="Rectangle 18058" width="50" height="50" transform="translate(1237.688 2717.5)"/>
+      <rect id="Rectangle_18059" data-name="Rectangle 18059" width="50" height="50" transform="translate(1237.688 2817.5)" fill="#abe9e1"/>
+      <rect id="Rectangle_18060" data-name="Rectangle 18060" width="50" height="50" transform="translate(1137.688 2817.5)"/>
+      <line id="Line_960" data-name="Line 960" y2="150" transform="translate(1137.688 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_961" data-name="Line 961" x2="149.293" transform="translate(1137.688 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_962" data-name="Line 962" y2="149.574" transform="translate(1187.546 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_963" data-name="Line 963" y2="149.574" transform="translate(1237.404 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_964" data-name="Line 964" y2="150" transform="translate(1287.688 2717.5)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_965" data-name="Line 965" x2="149.293" transform="translate(1137.688 2767.358)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_966" data-name="Line 966" x2="149.293" transform="translate(1137.688 2817.216)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_967" data-name="Line 967" x2="149.293" transform="translate(1137.688 2867.074)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

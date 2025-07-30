@@ -1,0 +1,58 @@
+<script type="text/javascript">
+const navBar = document.getElementById("nav-bar");
+const buttons = document.querySelectorAll(".nav-btn");
+const activeSlider = document.getElementById("active-slider");
+const hoverSlider = document.getElementById("hover-slider");
+
+let activeBtn = document.querySelector(".nav-btn.active");
+
+function updateSliderPosition(slider, button) {
+  const { offsetLeft, offsetWidth } = button;
+  slider.style.left = `${offsetLeft}px`;
+  slider.style.width = `${offsetWidth}px`;
+}
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    activeBtn.classList.remove("active");
+    btn.classList.add("active");
+    activeBtn = btn;
+    updateSliderPosition(activeSlider, btn);
+  });
+
+  btn.addEventListener("mouseenter", () => {
+    updateSliderPosition(hoverSlider, btn);
+    hoverSlider.style.opacity = 1;
+  });
+});
+
+navBar.addEventListener("mouseleave", () => {
+  hoverSlider.style.opacity = 0;
+});
+
+// Set initial slider position
+window.addEventListener("load", () => {
+  updateSliderPosition(activeSlider, activeBtn);
+});
+
+</script>
+<!-- <footer>
+    <div class="container">
+        <div class="nav-bar" id="nav-bar">
+            <span class="slider active-slider" id="active-slider"></span>
+            <span class="slider hover-slider" id="hover-slider"></span>
+        
+            <button class="nav-btn home active"><span>Home</span></button>
+            <button class="nav-btn crossword"><span>Crossword</span></button>
+            <button class="nav-btn sudoku"><span>Sudoku</span></button>
+            <button class="nav-btn word-games"><span>Word Games</span></button>
+            <button class="nav-btn quiz"><span>Quiz</span></button>
+          </div>
+    </div>
+</footer> -->
+
+<!-- <footer>
+    <div class="container">
+      <p>Copyright© 2025, THG PUBLISHING PVT LTD.</p>
+    </div>
+</footer> -->

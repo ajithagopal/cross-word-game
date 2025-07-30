@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.201" height="50.5" viewBox="0 0 50.201 50.5">
+  <g id="Group_73175" data-name="Group 73175" transform="translate(-17422.799 1073)">
+    <rect id="Rectangle_18172" data-name="Rectangle 18172" width="50" height="50" transform="translate(17423 -1073)" fill="none"/>
+    <g id="Group_73174" data-name="Group 73174" transform="translate(-3747 65)">
+      <g id="Group_73078" data-name="Group 73078" transform="translate(21170 -1125.24)">
+        <rect id="Rectangle_18135" data-name="Rectangle 18135" width="13" height="12" transform="translate(0 0.24)" fill="#fff"/>
+        <rect id="Rectangle_18135-2" data-name="Rectangle 18135" width="12" height="13" transform="translate(13 0.24)" fill="#82d4c3"/>
+        <rect id="Rectangle_18135-3" data-name="Rectangle 18135" width="12" height="12" transform="translate(25 0.24)" fill="#fff"/>
+        <rect id="Rectangle_18135-4" data-name="Rectangle 18135" width="12" height="12" transform="translate(37 0.24)" fill="#fff"/>
+        <line id="Line_998" data-name="Line 998" y2="12.391" transform="translate(12.701 0.322)" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_999" data-name="Line 999" y2="12.391" transform="translate(24.783 0.322)" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_1000" data-name="Line 1000" y2="12.391" transform="translate(37.174 0.322)" fill="none" stroke="#000" stroke-width="1"/>
+      </g>
+      <g id="Group_73079" data-name="Group 73079" transform="translate(21195.094 -1137) rotate(90)">
+        <rect id="Rectangle_18135-5" data-name="Rectangle 18135" width="12" height="12" transform="translate(0 0.094)" fill="#fff"/>
+        <rect id="Rectangle_18135-6" data-name="Rectangle 18135" width="12" height="12" transform="translate(12 0.094)" fill="none"/>
+        <rect id="Rectangle_18135-7" data-name="Rectangle 18135" width="12" height="12" transform="translate(25 0.094)" fill="#fff"/>
+        <rect id="Rectangle_18135-8" data-name="Rectangle 18135" width="12" height="12" transform="translate(37 0.094)" fill="#fff"/>
+        <line id="Line_996" data-name="Line 996" y1="12.391" transform="translate(36.864)" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_1001" data-name="Line 1001" y1="12.391" transform="translate(24.473)" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_1002" data-name="Line 1002" y1="12.391" transform="translate(12.391)" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_1003" data-name="Line 1003" y1="12.391" transform="translate(48.946)" fill="none" stroke="#000" stroke-width="1"/>
+      </g>
+      <path id="Path_9555" data-name="Path 9555" d="M21195.018-1088.785h-12.205v-24.726h-12.33v-11.942h12.33v-12.332h12.205v12.332h24.41v11.942h-24.41Z" transform="translate(-0.184 0.785)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg id="Component_56_10" data-name="Component 56 – 10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <filter id="Ellipse_112" x="16" y="18.999" width="87" height="87" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_18164" data-name="Rectangle 18164" width="120" height="120" fill="none"/>
+  <g id="Group_73562" data-name="Group 73562" transform="translate(-446 -1655)">
+    <g id="Group_73105" data-name="Group 73105" transform="translate(458.851 1666.28)">
+      <circle id="Ellipse_119" data-name="Ellipse 119" cx="16.5" cy="16.5" r="16.5" transform="translate(34.148 2.719)"/>
+      <circle id="Ellipse_122" data-name="Ellipse 122" cx="16.5" cy="16.5" r="16.5" transform="translate(34.148 67.719)"/>
+      <ellipse id="Ellipse_117" data-name="Ellipse 117" cx="16" cy="15.5" rx="16" ry="15.5" transform="translate(67.148 51.719)"/>
+      <circle id="Ellipse_121" data-name="Ellipse 121" cx="15.5" cy="15.5" r="15.5" transform="translate(3.148 51.719)"/>
+      <ellipse id="Ellipse_118" data-name="Ellipse 118" cx="16" cy="15.5" rx="16" ry="15.5" transform="translate(67.148 20.719)"/>
+      <circle id="Ellipse_120" data-name="Ellipse 120" cx="15.5" cy="15.5" r="15.5" transform="translate(3.148 20.719)"/>
+      <g transform="matrix(1, 0, 0, 1, -12.85, -11.28)" filter="url(#Ellipse_112)">
+        <circle id="Ellipse_112-2" data-name="Ellipse 112" cx="34.5" cy="34.5" r="34.5" transform="translate(25 25)"/>
+      </g>
+      <g id="Ellipse_107" data-name="Ellipse 107" transform="translate(31.148 32.719)" fill="#fff" stroke="#000" stroke-width="1">
+        <circle cx="16" cy="16" r="16" stroke="none"/>
+        <circle cx="16" cy="16" r="15.5" fill="none"/>
+      </g>
+      <g id="Ellipse_108" data-name="Ellipse 108" transform="translate(31.148 -0.281)" fill="#ff905e" stroke="#000" stroke-width="1">
+        <circle cx="16" cy="16" r="16" stroke="none"/>
+        <circle cx="16" cy="16" r="15.5" fill="none"/>
+      </g>
+      <g id="Ellipse_109" data-name="Ellipse 109" transform="translate(31.148 64.719)" fill="#ff905e" stroke="#000" stroke-width="1">
+        <ellipse cx="16" cy="15.5" rx="16" ry="15.5" stroke="none"/>
+        <ellipse cx="16" cy="15.5" rx="15.5" ry="15" fill="none"/>
+      </g>
+      <g id="Ellipse_110" data-name="Ellipse 110" transform="translate(63.148 48.719)" fill="#ff905e" stroke="#000" stroke-width="1">
+        <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+        <circle cx="16.5" cy="16.5" r="16" fill="none"/>
+      </g>
+      <g id="Ellipse_111" data-name="Ellipse 111" transform="translate(0.148 48.719)" fill="#ff905e" stroke="#000" stroke-width="1">
+        <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+        <circle cx="15.5" cy="15.5" r="15" fill="none"/>
+      </g>
+      <g id="Ellipse_113" data-name="Ellipse 113" transform="translate(63.148 17.719)" fill="#ff905e" stroke="#000" stroke-width="1">
+        <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+        <circle cx="16.5" cy="16.5" r="16" fill="none"/>
+      </g>
+      <g id="Ellipse_114" data-name="Ellipse 114" transform="translate(0.148 17.719)" fill="#ff905e" stroke="#000" stroke-width="1">
+        <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+        <circle cx="15.5" cy="15.5" r="15" fill="none"/>
+      </g>
+      <text id="F" transform="translate(46.148 55.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-4" y="0">F</tspan></text>
+      <text id="l" transform="translate(46.148 86.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-3" y="0">L</tspan></text>
+      <text id="O" transform="translate(80.148 70.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-5" y="0">O</tspan></text>
+      <text id="W" transform="translate(80.148 39.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-7" y="0">W</tspan></text>
+      <text id="E" transform="translate(46.148 21.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-4" y="0">E</tspan></text>
+      <text id="R" transform="translate(15.148 36.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-5" y="0">R</tspan></text>
+      <text id="D" transform="translate(15.148 70.719)" font-size="15" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="-5" y="0">D</tspan></text>
+    </g>
+    <rect id="Rectangle_18161" data-name="Rectangle 18161" width="110" height="110" transform="translate(451 1660)" fill="none"/>
+  </g>
+</svg>

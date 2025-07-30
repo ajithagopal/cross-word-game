@@ -1,0 +1,24 @@
+<svg id="Component_59_13" data-name="Component 59 – 13" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect id="Rectangle_18157" data-name="Rectangle 18157" width="100" height="100" transform="translate(15 14.578)"/>
+  <rect id="Rectangle_18139" data-name="Rectangle 18139" width="120" height="120" fill="none"/>
+  <g id="Group_73315" data-name="Group 73315" transform="translate(-873.75 -2190.422)">
+    <g id="Group_72685" data-name="Group 72685" transform="translate(883 2200.344)">
+      <path id="Rectangle_18018" data-name="Rectangle 18018" d="M2,0H50a0,0,0,0,1,0,0V50a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" fill="#abe9e1"/>
+      <path id="Rectangle_18019" data-name="Rectangle 18019" d="M0,0H48a2,2,0,0,1,2,2V50a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(49.501)" fill="#fff"/>
+      <path id="Rectangle_18021" data-name="Rectangle 18021" d="M0,0H50a0,0,0,0,1,0,0V50a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" transform="translate(0 49.501)" fill="#fff"/>
+      <path id="Rectangle_18022" data-name="Rectangle 18022" d="M0,0H50a0,0,0,0,1,0,0V48a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(49.501 49.501)"/>
+      <text id="M" transform="translate(15.22 15.221)" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="0" y="20">M</tspan></text>
+      <text id="I" transform="translate(64.279 15.221)" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="6" y="20">I</tspan></text>
+      <text id="N" transform="translate(15.22 64.28)" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="2" y="20">N</tspan></text>
+      <text id="I-2" data-name="I" transform="translate(64.279 64.28)" fill="#fff" font-size="20" font-family="MerriweatherSans-Medium, Merriweather Sans" font-weight="500" letter-spacing="-0.025em"><tspan x="6" y="20">I</tspan></text>
+    </g>
+    <g id="Rectangle_18056" data-name="Rectangle 18056" transform="translate(883 2200)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="99.5" height="99.845" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="98.5" height="98.845" rx="1.5" fill="none"/>
+    </g>
+  </g>
+  <g id="Group_72740" data-name="Group 72740" transform="translate(9.75 10.078)">
+    <line id="Line_960" data-name="Line 960" y2="98.845" transform="translate(49.257)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_961" data-name="Line 961" x2="99.5" transform="translate(0 49.422)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>
